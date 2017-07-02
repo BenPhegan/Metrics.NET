@@ -80,11 +80,11 @@ namespace Metrics.Core
             }
         }
 
-        public void PerformanceCounter(string name, string counterCategory, string counterName, string counterInstance, Unit unit, MetricTags tags)
+        /*public void PerformanceCounter(string name, string counterCategory, string counterName, string counterInstance, Unit unit, MetricTags tags)
         {
             this.Gauge(name, () => this.metricsBuilder.BuildPerformanceCounter(name, unit, counterCategory, counterName, counterInstance), unit, tags);
         }
-
+*/
         public void Gauge(string name, Func<double> valueProvider, Unit unit, MetricTags tags)
         {
             this.Gauge(name, () => this.metricsBuilder.BuildGauge(name, unit, valueProvider), unit, tags);

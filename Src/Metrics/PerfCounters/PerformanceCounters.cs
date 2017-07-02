@@ -8,7 +8,7 @@ using System.Security.Principal;
 
 namespace Metrics.PerfCounters
 {
-    internal static class PerformanceCounters
+    /*internal static class PerformanceCounters
     {
         private static readonly ILog log = LogProvider.GetCurrentClassLogger();
 
@@ -156,4 +156,5 @@ namespace Metrics.PerfCounters
             }
         }
     }
+    */
 }

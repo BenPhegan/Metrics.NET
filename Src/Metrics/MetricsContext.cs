@@ -58,7 +58,7 @@ namespace Metrics
         /// <param name="counterInstance">Instance of the performance counter</param>
         /// <param name="unit">Description of want the value represents ( Unit.Requests , Unit.Items etc ) .</param>
         /// <param name="tags">Optional set of tags that can be associated with the metric.</param>
-        void PerformanceCounter(string name, string counterCategory, string counterName, string counterInstance, Unit unit, MetricTags tags = default(MetricTags));
+        //void PerformanceCounter(string name, string counterCategory, string counterName, string counterInstance, Unit unit, MetricTags tags = default(MetricTags));
 
         /// <summary>
         /// A counter is a simple incrementing and decrementing 64-bit integer. Ex number of active requests.

@@ -97,10 +97,10 @@ namespace Metrics
         /// <param name="unit">Description of want the value represents ( Unit.Requests , Unit.Items etc ) .</param>
         /// <param name="tags">Optional set of tags that can be associated with the metric.</param>
         /// <returns>Reference to the gauge</returns>
-        public static void PerformanceCounter(string name, string counterCategory, string counterName, string counterInstance, Unit unit, MetricTags tags = default(MetricTags))
-        {
-            globalContext.PerformanceCounter(name, counterCategory, counterName, counterInstance, unit, tags);
-        }
+        //public static void PerformanceCounter(string name, string counterCategory, string counterName, string counterInstance, Unit unit, MetricTags tags = default(MetricTags))
+        //{
+        //   globalContext.PerformanceCounter(name, counterCategory, counterName, counterInstance, unit, tags);
+        //}
 
         /// <summary>
         /// A gauge is the simplest metric type. It just returns a value. This metric is suitable for instantaneous values.

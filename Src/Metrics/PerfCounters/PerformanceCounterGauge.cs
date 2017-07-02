@@ -2,10 +2,11 @@
 using System;
 using System.Diagnostics;
 using System.Security.Principal;
+using Metrics;
 
 namespace Metrics.PerfCounters
 {
-    public class PerformanceCounterGauge : MetricValueProvider<double>
+    /*public class PerformanceCounterGauge : MetricValueProvider<double>
     {
         private readonly PerformanceCounter performanceCounter;
 
@@ -65,4 +66,4 @@ namespace Metrics.PerfCounters
             }
         }
     }
-}
+*/}
